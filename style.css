@@ -14,6 +14,7 @@ body{
     padding: 0px;
 }
 
+
 ul{
     margin: 0;
     padding: 0;
@@ -34,6 +35,13 @@ ul li:nth-child(odd) {
      background:lightgrey;
 }
 
+.close {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+    float: right;
+}
+  
 ul li.checked {
     background: #888;
     color: #fff;

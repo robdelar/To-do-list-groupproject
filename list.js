@@ -8,6 +8,24 @@ function newElement(){
     newItem.appendChild(text)
     //ul element is added to the list
     document.getElementById("myUL").appendChild(newItem)
+
+    var myNodelist = document.getElementsByTagName("LI");
+
+    
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    newItem.appendChild(span); 
+
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+    }
+    }
     
   }
 
@@ -18,5 +36,11 @@ function newElement(){
             ev.target.classList.toggle('checked');
         }
         }, false);
+
+
+    
+
+    // Click on a close button to hide the current list item
+  
 
 
