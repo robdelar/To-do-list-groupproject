@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    /* margin-top:0px; */
+    padding: 0px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li{
+    cursor:crosshair;
+    position:relative;
+    padding-left: 25px;
+    background: cornsilk;
+    font-size: large;
+    transition: .1s;
+
+}
+
+ul li:nth-child(odd) {
+     background:lightgrey;
+}
+
+ul li:hover {
+    background:whitesmoke;
+    transition: 0.2s;
+}
+
+ /* ul li.checked {
+    background: greenyellow;
+    color:red;
+    text-decoration:line-through;
+
+} */
+
+/* dont know what it does yet
+{
+-webkit-user-select: none; 
+-moz-user-select: none;  
+-ms-user-select: none;  
+user-select: none;
+} */
+
+/* ul li.checked::before {  
+    content: '';  
+    position: absolute; 
+    border-color: #fff; 
+    border-style: solid;  
+    border-width: 0 2px 2px 0;  
+    top: 10px;  left: 16px;
+    transform: rotate(45deg); 
+    height: 15px; 
+    width: 7px;
+    } */
+
+
+.addBtn{
+    background-color: azure;
+    color: rgb(15, 2, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
