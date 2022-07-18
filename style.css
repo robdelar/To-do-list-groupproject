@@ -34,6 +34,12 @@ ul li:nth-child(odd) {
      background:lightgrey;
 }
 
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
 ul li:hover {
     background:whitesmoke;
     transition: 0.2s;
